@@ -5,17 +5,17 @@
  * forms is permitted as long as the files maintain this copyright. Users are 
  * permitted to modify this and use it to learn about the field of embedded
  * software. Alex Fosdick and the University of Colorado are not liable for any
- * misuse of this material. 
+ * misuse of this material.
  *
  *****************************************************************************/
 /**
- * @file <Add File Name> 
- * @brief <Add Brief Description Here >
+ * @file stats.c
+ * @brief Statistics
  *
- * <Add Extended Description Here>
+ * Program performing simple statistics on array of numbers
  *
- * @author <Add FirsName LastName>
- * @date <Add date >
+ * @author Michal Soloducha
+ * @date 2020-02-01
  *
  */
 
@@ -36,7 +36,32 @@ void main() {
                                 7,  87, 250, 230,  99,   3, 100,  90};
 
   /* Other Variable Declarations Go Here */
+
+  unsigned char *ptr = test;
+
+
   /* Statistics and Printing Functions Go Here */
+
+  void print_statistics(unsigned char *ptr, unsigned int size) {
+  }
+
+  void print_array(unsigned char *ptr, unsigned int size) {
+  }
+
+  unsigned int find_median(unsigned char *ptr, unsigned int size) {
+  }
+
+  unsigned int find_mean(unsigned char *ptr, unsigned int size) {
+  }
+
+  unsigned int find_maximum(unsigned char *ptr, unsigned int size) {
+  }
+
+  unsigned int find_minimum(unsigned char *ptr, unsigned int size) {
+  }
+
+  void sort_array(unsigned char *ptr, unsigned int size) {
+  }
 
 }
 
