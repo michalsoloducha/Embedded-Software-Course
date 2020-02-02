@@ -15,7 +15,7 @@
  * Program performing simple statistics on array of numbers
  *
  * @author Michal Soloducha
- * @date 2020-02-01
+ * @date 2020-02-02
  *
  */
 
@@ -58,7 +58,7 @@ void print_array(unsigned char *ptr, unsigned int size);
  *
  * @return Array median value
  */
-unsigned int find_median(unsigned char *ptr, unsigned int size);
+unsigned char find_median(unsigned char *ptr, unsigned int size);
 
 /**
  * @brief Calculates array mean
@@ -70,7 +70,7 @@ unsigned int find_median(unsigned char *ptr, unsigned int size);
  *
  * @return Array mean
  */
-unsigned int find_mean(unsigned char *ptr, unsigned int size);
+unsigned char find_mean(unsigned char *ptr, unsigned int size);
 
 /**
  * @brief Calculates array maximum
@@ -82,7 +82,7 @@ unsigned int find_mean(unsigned char *ptr, unsigned int size);
  *
  * @return Array maximum
  */
-unsigned int find_maximum(unsigned char *ptr, unsigned int size);
+unsigned char find_maximum(unsigned char *ptr, unsigned int size);
 
 /**
  * @brief Calculates array minimum
@@ -94,7 +94,7 @@ unsigned int find_maximum(unsigned char *ptr, unsigned int size);
  *
  * @return Array minimum
  */
-unsigned int find_minimum(unsigned char *ptr, unsigned int size);
+unsigned char find_minimum(unsigned char *ptr, unsigned int size);
 
 /**
  * @brief Sorts array
